@@ -1,0 +1,238 @@
+/* Color Palette */
+/* Rosy Brown #bea798 */
+/* Cadet Blue #648c9c */
+/* Dark Slate Gray #414345 */
+/* Light Steel Blue #dfe0e1 */
+/* Slate Gray #818384 */
+
+/*------------------------------------------------------------------
+    [Table of contents]
+
+    1. Welcome
+    2. Navbar
+    3. About 
+    4. Skills 
+    5. Work Experience 
+    6. Portfolio 
+    7. Contact
+    8. Footer
+    -------------------------------------------------------------------*/
+
+
+/* 0. GENERAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #414345;
+  background-color: #dfe0e1;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* body {
+  padding: 0;
+  margin: 0;
+} */
+
+/* || UTILITIES */
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slides-navigation {
+  z-index: 5;
+}
+
+.slides-navigation a.prev {
+  left: 20px;
+}
+
+.slides-navigation a.next {
+  right: 20px;
+}
+
+.title-message {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 4;
+  text-align: center;
+  margin-top: -125px;
+}
+
+.title-message .heading p {
+  color: #fff;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 200;
+  letter-spacing: 7px;
+}
+
+.title-message .heading .main-title {
+  font-size: 50px;
+}
+
+.title-message .heading .subtitle {
+  font-size: 23px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+/*********** About Section ************/
+#about {
+  padding: 80px 0;
+  margin: 0;
+  background-color: #648C9C;
+  width: 100%;
+}
+
+.about-container {   
+  color: #fff;                  /* grid container for the About content */ 
+  display: grid;
+  /* grid-template-columns: repeat(5, minmax(150px, 200px)); */
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  max-width: 1000px;
+  margin: 1em auto;
+  justify-items: center;
+}
+
+.about-card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.profile-pic {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+
+.about-image {
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.name-heading {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  padding-bottom: 40px;
+}
+
+/* .section {
+  text-align
+} */
+
+
+/* Skills Section */
+.skills-section {
+  background-color: #648c9c;
+  color: #fff;
+}
+/* Skills Section END */
+
+/* Navigation Section */
+#navigation {
+  background-color: #648C9C;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../images/icons/hamburger-menu.svg);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+/* Navigation Section END */
+
+/* Projects - CSS Cookbook cards */
+
+#projects, #publications {
+  padding: 80px 0;
+  margin: 0;
+  width: 100%;
+}
+
+#projects {
+  background-color: #dfe0e1;
+  /* background-color: #648c9c; */
+}
+
+img {
+  max-width: 100%;
+}
+
+.project-cards {                      /* grid container for the cards */ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: 1em auto;
+}
+
+.project-card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.project-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.project-card h2 {
+  margin: 0;
+  padding: .5rem;
+}
+
+.project-card .content {
+  padding: .5rem;
+}
+
+.project-card footer {
+  background-color: #333;
+  color: #fff;
+  padding: .5rem;
+}
+
+/* Projects - CSS Cookbook cards END */
+
+#publications {
+  background-color: #dfe0e1;
+  /* background-color: #648c9c; */
+}
