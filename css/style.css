@@ -192,7 +192,7 @@ body {
   width: 100%;
 }
 
-#projects {
+.projects-section {
   background-color: #dfe0e1;
   /* background-color: #648c9c; */
 }
@@ -242,4 +242,15 @@ img {
 #publications {
   background-color: #dfe0e1;
   /* background-color: #648c9c; */
+}
+
+
+/* Contact */
+.contact {
+  background-color: #dfe0e1;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
 }
