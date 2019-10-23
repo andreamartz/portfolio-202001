@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   let typed = new Typed(".typed", {
-    strings: ["Web Developer.", "Skill #2.", "Lifelong Learner."],
+    strings: ["Web Development.", "Problem-Solving.", "Lifelong Learning."],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
