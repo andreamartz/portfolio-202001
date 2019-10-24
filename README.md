@@ -15,7 +15,7 @@ The rest of the page, including the color palette, was designed by Andrea Martz.
 
 ### Photo credits:
 
-All photos can be found on Unsplash and Pexels.
+All photos can be found on Unsplash, Pexels, or Pixabay.
 
 #### Slider photos:
 
@@ -25,6 +25,7 @@ Safar Safarov: laptop with code and three small plants by a window (Unsplash)
 
 #### Photos in cards:
 
+No photographer listed: toddler holding bowl with berries in it (Pixabay)
 Godisable Jacob: woman in floral outfit sitting on hood of a white car (Pexels)
 JESHOOTS.COM: frustrated woman biting a pencil while looking at laptop screen (Unsplash)
 Matthew Hamilton: road construction orange lights (Unsplash)
