@@ -1,7 +1,7 @@
 
-# andreamartz.github.io
+# Get to Know Andrea Martz
 
-Andrea Martz's portfolio repository at https://andreamartz.github.io
+Get to know Andrea and see her portfolio of work at https://andreamartz.github.io
 
 # Acknowledgements
 
