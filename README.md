@@ -3,10 +3,10 @@
 
 Get to know Andrea and see her portfolio of work at https://andreamartz.github.io
 
-# Acknowledgements
+## Acknowledgements
 
-## Photo credits:
+### Photo credits:
 
 Superslides ....
 Photo by ....
-# andreamartz.github.io
+
