@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   let typed = new Typed(".typed", {
-    strings: ["Web Development.", "Problem-Solving.", "Lifelong Learning."],
+    strings: ["Web Development.", "Project Management.", "Process Improvement."],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
