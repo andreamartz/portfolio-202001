@@ -147,6 +147,7 @@ body {
 /* Skills Section */
 .skills-section {
   background-color: #648c9c;
+  /* background-color: #dfe0e1; */
   color: #fff;
   padding-top: 0;
 }
@@ -155,6 +156,7 @@ body {
   padding: 3px;
   font-size: 4rem;
   color: #fff;
+  /* color: #648c9c; */
 }
 /* Skills Section END */
 
@@ -301,9 +303,10 @@ img {
 /* Projects - CSS Cookbook cards END */
 
 #publications {
-  background-color: #dfe0e1;
-  /* background-color: #648c9c; */
+  /* background-color: #dfe0e1; */
+  background-color: #648c9c;
   text-align: center;
+  color: #fff;
 }
 
 .pubs-heading {
@@ -311,7 +314,7 @@ img {
 }
 
 /* Contact */
-.contact {
+.contact-section {
   background-color: #dfe0e1;
 }
 
