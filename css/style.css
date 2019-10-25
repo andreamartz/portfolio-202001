@@ -148,15 +148,16 @@ body {
 .skills-section {
   background-color: #648c9c;
   color: #fff;
+  padding-top: 0;
 }
 
 .skill {
   padding: 3px;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
 }
-
 /* Skills Section END */
+
 
 /* Navigation Section */
 #navigation {
