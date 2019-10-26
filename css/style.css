@@ -302,6 +302,8 @@ img {
 
 /* Projects - CSS Cookbook cards END */
 
+
+/* Publications - CSS Cookbook cards */
 #publications {
   /* background-color: #dfe0e1; */
   background-color: #648c9c;
@@ -312,10 +314,28 @@ img {
 .pubs-heading {
   padding-bottom: 2rem;
 }
+/* Publications - CSS Cookbook cards END */
+
+
+/* Public Speaking - CSS Cookbook cards */
+#speaking {
+  background-color: #dfe0e1;
+  /* background-color: #648c9c; */
+  text-align: center;
+  /* color: #fff; */
+}
+
+.speaking-heading {
+  padding-bottom: 2rem;
+}
+/* Public Speaking - CSS Cookbook cards END */
+
 
 /* Contact */
 .contact-section {
-  background-color: #dfe0e1;
+  /* background-color: #dfe0e1; */
+  background-color: #648c9c;
+  color: #fff;
 }
 
 .contact-container {
@@ -324,9 +344,18 @@ img {
   margin: 0 auto;
 }
 
-.btn-contact {
-  background-color: #648c9c;
+.contact-heading {
+  padding-bottom: 2rem;
+}
+
+.btn-contact,
+.btn-contact:hover,
+.btn-contact:active {
+  /* background-color: #648c9c; */
+  background-color: #dfe0e1;
   padding: 10px 15px;
-  border: #648c9c;
-  font-size: 1.5rem;
+  /* border: #648c9c; */
+  border: #def0e1;
+  font-size: 1.25rem;
+  color: #292929;
 }
