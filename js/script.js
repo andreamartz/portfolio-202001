@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
 
 
-  $("navigation li a").click(function(e) {
+  $("#navigation li a").click(function(e) {
     e.preventDefault();
 
     const targetElement = $(this).attr("href");
