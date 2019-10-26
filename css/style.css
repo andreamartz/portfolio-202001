@@ -30,7 +30,7 @@ body {
   background-color: #dfe0e1;
   font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
 }
 
 /* body {
@@ -41,7 +41,6 @@ body {
 .container {
   width: 90%;
   max-width: 1000px;
-  letter-spacing: .5px;
 }
 
 /* UTILITIES */
@@ -114,11 +113,8 @@ body {
   justify-items: center;
 }
 
-.about-card {
-  display: grid;
-  grid-template-rows: max-content 200px 1fr;
-  border: 1px solid #999;
-  border-radius: 3px;
+.about-content {
+  text-align: center;
 }
 
 .profile-pic {
@@ -235,8 +231,10 @@ img {
   background-color: #c1d0d7;
 }
 
-.card-container:hover {
+.card-container:hover,
+.card-container:active {
   background-color: #648c9c;
+  transition: 0.5s;
 }
 
 .card-link {
@@ -244,9 +242,11 @@ img {
   text-decoration: none;
 }
 
-.card-link:hover {
+.card-link:hover,
+.card-link:active {
   color: inherit;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .project-card {
@@ -263,6 +263,7 @@ img {
   box-shadow: 3px 3px 41px -3px rgba(0,0,0,0.38);
   -webkit-box-shadow: 3px 3px 41px -3px rgba(0,0,0,0.38);
   -moz-box-shadow: 3px 3px 41px -3px rgba(0,0,0,0.38);
+  transition: 0.5s;
 }
 
 .project-card img {
@@ -292,12 +293,12 @@ img {
 .project-card .content {
   padding: .5rem;
   letter-spacing: .5px;
+  font-size: 1rem;
 }
 
 .project-card footer {
   background-color: #333;
   color: #fff;
-  padding: .5rem;
 }
 
 /* Projects - CSS Cookbook cards END */
@@ -358,4 +359,20 @@ img {
   border: #def0e1;
   font-size: 1.25rem;
   color: #292929;
+}
+
+/* Footer */
+.footer-section {
+  background-color: #292929;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.quote {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer-byline {
+  font-size: 1rem;
 }
