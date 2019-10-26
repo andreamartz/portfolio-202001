@@ -113,11 +113,8 @@ body {
   justify-items: center;
 }
 
-.about-card {
-  display: grid;
-  grid-template-rows: max-content 200px 1fr;
-  border: 1px solid #999;
-  border-radius: 3px;
+.about-content {
+  text-align: center;
 }
 
 .profile-pic {
@@ -136,10 +133,6 @@ body {
   margin: 0 auto;
   float: none;
   padding-bottom: 40px;
-}
-
-.about-accomplishments {
-  list-style-type: circle;
 }
 
 /* .section {
