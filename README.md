@@ -3,7 +3,7 @@
 
 Get to know Andrea and see her portfolio of work at [https://andreamartz.github.io](https://andreamartz.github.io)
 
-This webpage was built entirely by Andrea using mostly vanilla CSS3 and Javascript.  The slider images and nav bar, though, do involve some Bootstrap.
+This webpage was built entirely by Andrea using CSS3, Bootstrap, and Javascript.  
 
 ## Acknowledgements
 
