@@ -43,9 +43,14 @@ $(document).ready(function() {
       body.css("padding-top", 0);
       body.removeClass("fixedNav");
     }
-
-
-
   }
+
+  // Close mobile menu
+  // SOLVED BELOW --> Adds a click handler to the element with the classname .collapse and hides the element
+  // with the classname .collapse on click.
+
+  $(document).on("click", function () {
+    $(".collapse").collapse("hide");
+  })
 
 });

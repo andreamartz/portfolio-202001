@@ -1,7 +1,7 @@
 
 # Get to Know Andrea Martz
 
-Get to know Andrea and see her portfolio of work at [https://andreamartz.github.io](https://andreamartz.github.io)
+Get to know Andrea and see her portfolio of work at [https://andreamartz.dev](https://andreamartz.dev)
 
 This webpage was built entirely by Andrea using CSS3, Bootstrap, and Javascript.  
 
@@ -40,7 +40,6 @@ Andrea Martz - @amartzcoder
 Superslides.js (Copyright (c) 2013 Nic Aitch) and
 Typed.js (Copyright (c) 2018 Matt Boldt)
 used under the MIT License:
-
 
 The MIT License (MIT):
 
