@@ -10,14 +10,15 @@
     [Table of contents]
  
     0. GENERAL STYLES
-    1. Welcome
-    2. Navbar
+    1. UTILITIES
+    2. Navigation
     3. About 
     4. Skills 
-    5. Work Experience 
-    6. Portfolio 
-    7. Contact
-    8. Footer
+    5. Projects
+    6. Publications
+    7. Presentations
+    8. Contact
+    9. Footer
     -------------------------------------------------------------------*/
 
 
@@ -43,17 +44,12 @@ body {
   letter-spacing: .8px;
 }
 
-/* body {
-  padding: 0;
-  margin: 0;
-} */
-
 .container {
   width: 90%;
   max-width: 1000px;
 }
 
-/* UTILITIES */
+/* 1. UTILITIES */
 .overlay {
   width: 100%;
   height: 100%;
@@ -102,60 +98,9 @@ body {
 .section {
   padding: 100px 0;
 }
+/* UTILITIES end */
 
-/*********** About Section ************/
-#about {
-  padding: 80px 0;
-  margin: 0;;
-  background-color: var(--bg-color-blue);
-}
-
-.about-container {   
-  color: var(--font-color-light);                  /* grid container for the About content */ 
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-gap: 40px;
-  margin: 1rem auto;
-  justify-items: center;
-}
-
-.about-heading {
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-
-.about-content {
-  text-align: center;
-}
-
-.profile-pic {
-  text-align: center;
-  margin: 0 auto;
-  float: none;
-}
-
-.about-image {
-  max-height: 200px;
-  border-radius: 50%;
-}
-
-/* Skills Section */
-.skills-section {
-  background-color: var(--bg-color-blue);
-  color: var(--font-color-light);
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
-  padding-top: 0;
-}
-
-.skill {
-  padding: 3px;
-  font-size: 4rem;
-  color: var(--font-color-light);
-}
-/* Skills Section END */
-
-
-/* Navigation Section */
+/* 2. Navigation Section */
 #navigation {
   background-color: var(--bg-color-blue);
   padding: 20px 5%;
@@ -207,8 +152,59 @@ body {
 }
 /* Navigation Section END */
 
-/* Projects - CSS Cookbook cards */
+/* 3. About Section */
+#about {
+  padding: 80px 0;
+  margin: 0;;
+  background-color: var(--bg-color-blue);
+}
 
+.about-container {   
+  color: var(--font-color-light);                  /* grid container for the About content */ 
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  margin: 1rem auto;
+  justify-items: center;
+}
+
+.about-heading {
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.about-content {
+  text-align: center;
+}
+
+.profile-pic {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+
+.about-image {
+  max-height: 200px;
+  border-radius: 50%;
+}
+/* About Section END */
+
+/* 4. Skills Section */
+.skills-section {
+  background-color: var(--bg-color-blue);
+  color: var(--font-color-light);
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  padding-top: 0;
+}
+
+.skill {
+  padding: 3px;
+  font-size: 4rem;
+  color: var(--font-color-light);
+}
+/* Skills Section END */
+
+/* 5. Projects Section - CSS Cookbook cards */
 #projects, #publications {
   padding: 80px 0;
   margin: 0;
@@ -316,11 +312,9 @@ img {
   background-color: #333;
   color: var(--font-color-light);
 }
-
 /* Projects - CSS Cookbook cards END */
 
-
-/* Publications - CSS Cookbook cards */
+/* 6. Publications - CSS Cookbook cards */
 #publications {
   background-color: var(--bg-color-blue);
   text-align: center;
@@ -333,8 +327,7 @@ img {
 }
 /* Publications - CSS Cookbook cards END */
 
-
-/* Public Speaking - CSS Cookbook cards */
+/* 7. Presentations - CSS Cookbook cards */
 #speaking {
   background-color: var(--bg-color-gray);
   text-align: center;
@@ -344,10 +337,9 @@ img {
   padding-bottom: 2rem;
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
 }
-/* Public Speaking - CSS Cookbook cards END */
+/* Presentations - CSS Cookbook cards END */
 
-
-/* Contact */
+/* 8. Contact */
 .contact-section {
   background-color: var(--bg-color-blue);
   color: var(--font-color-light);
@@ -379,8 +371,9 @@ img {
   color: #292929;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
+/* Contact END */
 
-/* Footer */
+/* 9. Footer */
 .footer-section {
   background-color: #292929;
   color: var(--font-color-light);
@@ -395,3 +388,4 @@ img {
 .footer-byline {
   font-size: 1rem;
 }
+/* Footer END */
