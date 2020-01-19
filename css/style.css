@@ -1,14 +1,15 @@
 /* Color Palette */
-/* Rosy Brown #bea798 */
 /* Cadet Blue #648c9c */
-/* #92aeb9; */
+/* Lighter Accent Blue #92aeb9; */
 /* Dark Slate Gray #414345 */
 /* Light Steel Blue #dfe0e1 */
-/* Slate Gray #818384 */
+
+/* Other possible coordinating colors:  Rosy Brown #bea798 and Slate Gray #818384 */
 
 /*------------------------------------------------------------------
     [Table of contents]
-
+ 
+    0. GENERAL STYLES
     1. Welcome
     2. Navbar
     3. About 
@@ -21,14 +22,22 @@
 
 
 /* 0. GENERAL STYLES */
+:root {
+  --bg-color-blue: #648c9c;
+  --bg-color-gray: #dfe0e1;
+  --font-color-dark: #414345;
+  --font-color-light: #fff;
+  --accent-lighter-blue: #92aeb9;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-size: 14px;
-  color: #414345;
-  background-color: #dfe0e1;
+  color: var(--font-color-dark);
+  background-color: var(--bg-color-gray);
   font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: .8px;
@@ -76,7 +85,7 @@ body {
 }
 
 .title-message .heading p {
-  color: #fff;
+  color: var(--font-color-light);
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   font-weight: 200;
   letter-spacing: 7px;
@@ -97,19 +106,16 @@ body {
 /*********** About Section ************/
 #about {
   padding: 80px 0;
-  margin: 0;
-  background-color: #648C9C;
-  /* width: 100%; */
+  margin: 0;;
+  background-color: var(--bg-color-blue);
 }
 
 .about-container {   
-  color: #fff;                  /* grid container for the About content */ 
+  color: var(--font-color-light);                  /* grid container for the About content */ 
   display: grid;
-  /* grid-template-columns: repeat(5, minmax(150px, 200px)); */
   grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-gap: 40px;
-  /* max-width: 1000px; */
   margin: 1rem auto;
   justify-items: center;
 }
@@ -133,16 +139,10 @@ body {
   border-radius: 50%;
 }
 
-/* .section {
-  text-align
-} */
-
-
 /* Skills Section */
 .skills-section {
-  background-color: #648c9c;
-  /* background-color: #dfe0e1; */
-  color: #fff;
+  background-color: var(--bg-color-blue);
+  color: var(--font-color-light);
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   padding-top: 0;
 }
@@ -150,15 +150,14 @@ body {
 .skill {
   padding: 3px;
   font-size: 4rem;
-  color: #fff;
-  /* color: #648c9c; */
+  color: var(--font-color-light);
 }
 /* Skills Section END */
 
 
 /* Navigation Section */
 #navigation {
-  background-color: #648C9C;
+  background-color: var(--bg-color-blue);
   padding: 20px 5%;
   z-index: 100; /* nav bar will always be on top of other content */
   width: 100%;
@@ -170,13 +169,13 @@ body {
 }
 
 #navigation li:hover {
-  background-color: #92aeb9;
+  background-color: var(--accent-lighter-blue);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   transition: 0.7s;
 }
 
 #navigation li a {
-  color: #fff;
+  color: var(--font-color-light);
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   transition: 0.7s;
 }
@@ -190,7 +189,7 @@ body {
 .navbar-brand,
 .navbar-brand:hover {
   font-weight: bold;
-  color: #fff;
+  color: var(--font-color-light);
 }
 
 .navbar-toggler-icon {
@@ -213,12 +212,10 @@ body {
 #projects, #publications {
   padding: 80px 0;
   margin: 0;
-  /* width: 100%; */
 }
 
 .projects-section {
-  background-color: #dfe0e1;
-  /* background-color: #648c9c; */
+  background-color: var(--bg-color-gray);
   text-align: center;
 }
 
@@ -235,7 +232,6 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-gap: 20px;
-  /* max-width: 1000px; */
   margin: 1em auto;
 }
 
@@ -250,7 +246,7 @@ img {
 
 .card-container:hover,
 .card-container:active {
-  background-color: #648c9c;
+  background-color: var(--bg-color-blue);
   transition: 0.7s;
 }
 
@@ -272,7 +268,6 @@ img {
   grid-template-rows: max-content 200px 1fr;
   border: 1px solid #999;
   border-radius: 3px;
-  color: #414345;
   height: 100%;
 }
 
@@ -302,14 +297,13 @@ img {
 }
 
 .card-image {
-  border: 1px solid #dfe0e1;
+  border: 1px solid var(--bg-color-gray);
 }
 
 .card-icon-accessible {
   font-size: 8rem;
   background-color: #4c6ef5;
-  /* border-bottom: 1px solid #dfe0e1; */
-  color: #fff;
+  color: var(--font-color-light);
 }
 
 .project-card .content {
@@ -320,7 +314,7 @@ img {
 
 .project-card footer {
   background-color: #333;
-  color: #fff;
+  color: var(--font-color-light);
 }
 
 /* Projects - CSS Cookbook cards END */
@@ -328,25 +322,22 @@ img {
 
 /* Publications - CSS Cookbook cards */
 #publications {
-  /* background-color: #dfe0e1; */
-  background-color: #648c9c;
+  background-color: var(--bg-color-blue);
   text-align: center;
-  color: #fff;
 }
 
 .pubs-heading {
   padding-bottom: 2rem;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  color: var(--font-color-light);
 }
 /* Publications - CSS Cookbook cards END */
 
 
 /* Public Speaking - CSS Cookbook cards */
 #speaking {
-  background-color: #dfe0e1;
-  /* background-color: #648c9c; */
+  background-color: var(--bg-color-gray);
   text-align: center;
-  /* color: #fff; */
 }
 
 .speaking-heading {
@@ -358,13 +349,11 @@ img {
 
 /* Contact */
 .contact-section {
-  /* background-color: #dfe0e1; */
-  background-color: #648c9c;
-  color: #fff;
+  background-color: var(--bg-color-blue);
+  color: var(--font-color-light);
 }
 
 .contact-container {
-  /* width: 80%; */
   max-width: 540px;
   margin: 0 auto;
 }
@@ -375,11 +364,9 @@ img {
 }
 
 .btn-contact {
-  /* background-color: #648c9c; */
-  background-color: #dfe0e1;
+  background-color: var(--bg-color-gray);
   padding: 10px 15px;
-  /* border: #648c9c; */
-  border: #dfe0e1;
+  border: var(--bg-color-gray);
   border-radius: 15px;
   font-size: 1.25rem;
   color: #292929;
@@ -387,11 +374,8 @@ img {
 
 .btn-contact:hover,
 .btn-contact:active {
-  /* background-color: #648c9c; */
-  background-color: #dfe0e1;
-  /* padding: 12px 18px; */
-  /* border: #648c9c; */
-  border: #dfe0e1;
+  background-color: var(--bg-color-gray);
+  border: var(--bg-color-gray);
   color: #292929;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
@@ -399,7 +383,7 @@ img {
 /* Footer */
 .footer-section {
   background-color: #292929;
-  color: #fff;
+  color: var(--font-color-light);
   padding: 2rem 0;
 }
 
