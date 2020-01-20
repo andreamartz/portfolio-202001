@@ -24,8 +24,10 @@
 
 /* 0. GENERAL STYLES */
 :root {
-  --bg-color-blue: #648c9c;
-  --bg-color-gray: #dfe0e1;
+  /* --bg-color-blue: #648c9c; */
+  --bg-color-blue: #83a3af;
+  --bg-color-gray: #fbfbfc;
+  /* --bg-color-gray: #dfe0e1; */
   --font-color-dark: #414345;
   --font-color-light: #fff;
   --accent-lighter-blue: #92aeb9;
