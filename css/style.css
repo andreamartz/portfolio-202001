@@ -36,7 +36,7 @@
 }
 
 body {
-  font-size: 14px;
+  font-size: .875rem;
   color: var(--font-color-dark);
   background-color: var(--bg-color-gray);
   font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -77,7 +77,7 @@ body {
   top: 50%;
   z-index: 4;
   text-align: center;
-  margin-top: -125px;
+  margin-top: -7.81rem;
 }
 
 .title-message .heading p {
@@ -87,12 +87,12 @@ body {
   letter-spacing: 7px;
 }
 
-.title-message .heading .main-title {
-  font-size: 50px;
+.main-title {
+  font-size: 3.125rem;
 }
 
-.title-message .heading .subtitle {
-  font-size: 23px;
+.subtitle {
+  font-size: 1.44rem;
 }
 
 .section {
