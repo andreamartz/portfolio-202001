@@ -1,0 +1,35 @@
+/*------------------------------------------------------------------
+    [Table of contents]
+ 
+    0. GENERAL STYLES
+    1. Intro
+    2. Overview
+    3. Team
+    4. Process
+    4a. Process - Empathize
+    4b. Process - Define
+    4c. Process - Ideate
+    4d. Process - Build
+    4e. Process - Test
+    5. Site Map
+    6. Final Thoughts
+    7. Future Desired Improvements
+    8. Footer
+    -------------------------------------------------------------------*/
+
+/* GENERAL STYLES */
+section.row {
+  margin: 5rem 0;
+}
+
+.heading {
+  font-size: 2rem;
+}
+/* GENERAL STYLES END */
+
+/* 3. Team */
+.team-image {
+  max-height: 10.9rem;
+  border-radius: 50%;
+}
+/* Team END */

@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Email Newsletter</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+
+    <!-- Popper   * must come before Bootstrap * -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      
+
     <!-- My Styles CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/project.css">
   </head>
   <body>
     <header>
@@ -50,35 +63,45 @@
     <div class="container">
       <!-- PROJECT NAME and SCREENSHOTS OR VIDEO WALKTHROUGH -->
       <section class="row justify-content-between">
-        <div class="col-lg-6 p-3">
-          <div class="p-3 content text-center">
-            <p class="text-center">PROJECT NAME</p>
-            <button class=>Website</button>
-            <button class=>GitHub</button>
+        <div class="col-lg-6 p-3 align-self-center">
+          <div class="p-3 text-center">
+            <p class="heading text-center">COMMUNITY SHELF</p>
+            <p class="text-center">Email Newsletter</p>
+            <a href="https://andreamartz.dev/Email-Newsletter/">
+              <button class=>Website</button>
+            </a>
+            <a href="https://github.com/andreamartz/Email-Newsletter">
+              <button class=>GitHub</button>
+            </a>
           </div>
         </div>
         <div class="col-lg-6 p-3">
           <div class="text-center">
             <!-- Insert screenshots of the project OR a video walkthrough below. -->
-            <img src="https://via.placeholder.com/500x500.png?text=Visit+WhoIsHostingThis.com+Buyers+Guide" alt="Lorem ipsum" />
+            <img src="assets/images/email-newsletter.jpg" alt="email newsletter banner" />
           </div>
         </div>
       </section> <!-- END row -->
       <!-- PROJECT OVERVIEW -->
       <section class="row justify-content-between">
         <div class="col-lg-12 p-3">
-          <div class="p-3 content text-center">
-            <p class="text-center">OVERVIEW</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae consequatur odit culpa, reprehenderit nostrum, delectus vero maiores cumque id nam, ex pariatur possimus rerum! Aut eum similique aliquam doloribus deserunt soluta officia obcaecati reprehenderit amet tempora a, quisquam culpa ipsum quod accusantium libero recusandae dolorum iure et cupiditate voluptas.</p>
+          <div class="p-3 text-center">
+            <p class="heading text-center">OVERVIEW</p>
+            <p>This email newsletter was designed and built collaboratively by Amy McGowan and Andrea Martz. The project was
+              completed in response to an assignment during Cohort 4 of Moms Can Code School (https://www.momscan.co/) to
+              create a single issue of an email newsletter.</p>
+            
+            <p>Our newsletter was designed for a fictional community food pantry. The purpose of the newsletter is to engage 
+              community members and show them the ways they can make a difference for their neighbors in need.</p>
           </div>
         </div>
       </section> <!-- END row -->
       <!-- HUMAN-CENTERED DESIGN or other process used -->
       <section class="row justify-content-between">
         <div class="col-lg-12 p-3">
-          <div class="p-3 content text-center">
-            <p class="text-center">HUMAN-CENTERED DESIGN</p>
-            <p>Our design process was guided by the principles of human-centered design.</p>
+          <div class="p-3 text-center">
+            <p class="heading text-center">OUR PROCESS</p>
+            <p>Amy and I are both concerned about social justice issues, so we chose to do </p>
             <div class="text-center">
               <!-- Insert screenshots of the project OR a video walkthrough below. -->
               <img src="https://via.placeholder.com/500x500.png?" alt="Lorem ipsum" />
@@ -98,6 +121,57 @@
       <!-- ACCESSIBILITY AUDIT REPORT(S) OR USER TEST ANALYSES -->
       <!-- SITE MAP, IF ANY -->
       <!-- TEAM MEMBER NAME(S) and ROLES -->
+      <section class="row justify-content-between">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <p class="heading text-center">THE TEAM</p>
+            <div class="row justify-content-between my-5">
+              <div class="col-lg-3">
+                <!-- Insert screenshots of the project OR a video walkthrough below. -->
+                <img class="team-image" src="assets/images/Andrea-prof-2019.JPG" alt="photo of Andrea Martz">
+              </div>
+              <div class="col-lg-9 my-auto">
+                <!-- Insert screenshots of the project OR a video walkthrough below. -->
+                <ul class="text-left">
+                  <li>Hosted the project in my GitHub account</li>
+                  <li>Researched and proposed color schemes</li>
+                  <li>Wrote copy for </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End row -->
+            <div class="row justify-content-between my-5">
+              <div class="col-lg-9 my-auto">
+                <!-- Insert screenshots of the project OR a video walkthrough below. -->
+                <ul class="text-left">
+                  <li>Created the layout in Figma</li>
+                  <li>DEF</li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <!-- Insert screenshots of the project OR a video walkthrough below. -->
+                <img class="team-image" src="https://via.placeholder.com/175x175.png?" alt="photo of Amy McGowan">
+              </div>
+            </div>
+            <!-- End row -->
+            <div class="row justify-content-between my-5">
+              <div class="col-lg-9 my-auto">
+                <!-- Insert screenshots of the project OR a video walkthrough below. -->
+                <ul class="text-left">
+                  <li>Researched possible newsletter layouts</li>
+                  <li>Pair programming of the final newsletter</li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <!-- Insert screenshots of the project OR a video walkthrough below. -->
+                <img class="team-image" src="https://via.placeholder.com/175x175.png?" alt="Joint work">
+              </div>
+            </div>
+            <!-- End row -->
+          </div>
+        </div>
+      </section> <!-- END row -->
+      
       <!-- TOOLS USED TO COLLABORATE AND COMMUNICATE WITH TEAM (I.E., SLACK, ZOOM, TRELLO, ETC.) -->
       <!-- WHERE PROJECT IS HOSTED (I.E., HEROKU, NETLIFY, AWS) -->
       <!-- FUTURE LEARNINGS OR ADDITIONAL CHANGES I'D LIKE TO MAKE TO IMPROVE THE PROJECT -->
