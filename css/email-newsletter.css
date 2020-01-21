@@ -20,6 +20,6 @@
     -------------------------------------------------------------------*/
 
 /* 3. Theme, Audience and Purpose */
-#coffee-cup {
-  max-width: 60%;
+#coffee-cup, community-garden {
+  max-width: 100%;
 }
