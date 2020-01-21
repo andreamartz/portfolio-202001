@@ -20,6 +20,28 @@
     -------------------------------------------------------------------*/
 
 /* 3. Theme, Audience and Purpose */
-#coffee-cup, community-garden {
+#coffee-cup, #community-garden, #volunteer {
   max-width: 100%;
+}
+
+.content-list-item {
+  list-style: circle;
+}
+
+.image-credit {
+  font-size: .75rem;
+}
+
+/* SELECTING THE CONTENT */
+a:hover {
+  font-size: 107%
+}
+
+.video-link {
+  color: var(--font-color-dark);
+  font-style: italic;
+}
+
+.resource-link {
+  color: var(--font-color-dark);
 }
