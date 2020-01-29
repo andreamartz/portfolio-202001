@@ -43,6 +43,10 @@
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+.mobile-view {
+  max-height: 400px;
+}
+
 /* 3. Theme, Audience and Purpose */
 #coffee-cup, #community-garden, #volunteer, .blue-water, .green-tree {
   max-width: 100%;
