@@ -39,3 +39,12 @@ a:hover {
   font-size: 103%;
   color: var(--font-color-dark);
 }
+
+/* 3. Buyer Persona */
+#persona {
+  margin-bottom: 0;
+}
+
+#competitors {
+  margin-top: 0;
+}
