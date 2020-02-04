@@ -45,9 +45,30 @@
   transform: rotate(7deg);
 }
 
+@media (max-width: 991px) {
+  /* #auth-grace-mobile {
+    max-width: 37%;
+  } */
+  /* .boia-graphic {
+    max-width: 50%;
+  } */
+}
+
+@media (max-width: 767px) {
+  /* #auth-grace-mobile {
+    max-width: 37%;
+  } */
+  .boia-graphic {
+    max-width: 70%;
+  }
+}
+
 @media (max-width: 575px) {
   #auth-grace-mobile {
     max-width: 37%;
+  }
+  .boia-graphic {
+    max-width: 50%;
   }
 }
 
