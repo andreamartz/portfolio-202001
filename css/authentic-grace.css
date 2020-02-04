@@ -24,3 +24,18 @@
 .tilt-right-7 {
   transform: rotate(7deg);
 }
+
+@media (max-width: 575px) {
+  #auth-grace-mobile {
+    max-width: 37%;
+  }
+}
+
+a {
+  color: var(--font-color-dark);
+}
+
+a:hover {
+  font-size: 103%;
+  color: var(--font-color-dark);
+}
