@@ -16,5 +16,11 @@
     12. Footer
     -------------------------------------------------------------------*/
 
-/* 1. Intro */
+/* 1. Overview */
+.tilt-left-10 {
+  transform: rotate(-10deg);
+}
 
+.tilt-right-7 {
+  transform: rotate(7deg);
+}
