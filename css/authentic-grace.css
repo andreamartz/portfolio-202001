@@ -16,6 +16,26 @@
     12. Footer
     -------------------------------------------------------------------*/
 
+/* 0. GENERAL STYLES */
+:root {
+  --rosy-brown: #eec7b5;
+  --dark-rosy-brown: #d6b3a2;
+  --darker-rosy-brown: #be9f90;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+}
+
+#navigation {
+  background-color: var(--darker-rosy-brown)
+}
+
+#top-section {
+  padding: 5rem 0 0 0;
+}
+
 /* 1. Overview */
 .tilt-left-10 {
   transform: rotate(-10deg);
