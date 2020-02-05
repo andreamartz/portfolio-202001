@@ -89,3 +89,8 @@ a:hover {
 #competitors {
   margin-top: 0;
 }
+
+/* 9. What I Learned */
+.reflections {
+  list-style-type: disc;
+}
