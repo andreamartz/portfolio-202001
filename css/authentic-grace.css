@@ -91,6 +91,6 @@ a:hover {
 }
 
 /* 9. What I Learned */
-.reflections {
+.reflections, .teamwork {
   list-style-type: disc;
 }
