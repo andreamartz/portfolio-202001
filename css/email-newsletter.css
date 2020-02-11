@@ -14,6 +14,12 @@
     7. Future Desired Improvements
     8. Footer
     -------------------------------------------------------------------*/
+/* 0. GENERAL STYLES */
+:root {
+  --dark-green: #57a99a;
+  --light-green: #d1eecc;
+  --greenish-blue: #76dbd1;
+}
 
 /* 1. Intro */
 .button {
@@ -43,8 +49,23 @@
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-.mobile-view {
-  max-height: 400px;
+.tablet {
+  max-width: 400px;
+  transform: rotate(10deg);
+}
+
+.mobile {
+  max-width: 300px;
+  transform: rotate(-7deg);
+}
+
+@media (max-width: 767px) {
+  .tablet {
+    max-height: 400px;
+  }
+  .mobile {
+    max-height: 300px;
+  }
 }
 
 /* 3. Theme, Audience and Purpose */
@@ -63,6 +84,17 @@
 /* 4. Selecting the Content */
 a:hover {
   font-size: 107%
+}
+
+section.roles {
+  margin: 0;
+}
+
+.role {
+  font-family: 'Cuprum', sans-serif;
+  color: var(--dark-green);
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }
 
 .video-link {
