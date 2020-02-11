@@ -19,7 +19,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    
     <!-- My Styles CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/project.css">
@@ -61,37 +64,60 @@
 
     <div class="container">
       <!-- PROJECT NAME and SCREENSHOTS OR VIDEO WALKTHROUGH -->
-      <section class="row justify-content-between">
+      <section id="top-section" class="row justify-content-between">
         <div class="col-lg-12 p-3 align-self-center">
           <div class="p-3 text-center">
             <p class="heading text-center">AUTHENTIC GRACE</p>
+            <br>
             <p class="text-center">Online Storefront</p>
+            <br>
             <a class="mr-3" href="https://authentic-grace-mcc-cohort-4.netlify.com/">
               <button class="button" type="button">Visit Project Page</button>
             </a>
             <a class="ml-3" href="https://github.com/andreamartz/mcc-authentic-grace">
-              <button class="button" type="button">Visit GitHub Repo</button>
+              <button class="button" type="button">Visit GitHub Repo </button>
             </a>
           </div>
         </div>
       </section>  
       <!-- END row -->
-      <section class="row justify-content-between">
-        <div class="col-lg-12 p-3">
-          <div class="text-center">
-            <!-- Insert screenshots of the project OR a video walkthrough below. -->
-            <img src="assets/images/cars-daytime-fashion-886404.jpg" alt="online storefront hero image" />
+      
+      <!-- PROJECT OVERVIEW -->
+      <section class="row justify-content-between align-items-center">
+        <div class="col-sm-4 p-3">
+          <div class="p-3 tilt-left-10 text-center">
+            <a href="https://authentic-grace-mcc-cohort-4.netlify.com/" target="_blank">
+              <img id="auth-grace-mobile" src="assets/images/auth-grace-prj-images/authentic-grace-mobile.png" alt="">
+            </a>
           </div>
         </div>
+        <div class="col-sm-8 p-3 text-center">
+          <a href="https://authentic-grace-mcc-cohort-4.netlify.com/" target="_blank">
+            <img class="tilt-right-7" src="assets\images\auth-grace-prj-images\auth-grace-tablet-modal.png" alt="">
+          </a>
+        </div>
       </section> <!-- END row -->
-      <!-- PROJECT OVERVIEW -->
+      <!-- PROJECT OVERVIEW cont'd -->
       <section class="row justify-content-between">
         <div class="col-lg-12 p-3">
           <div class="p-3 text-center">
             <p class="heading text-center">OVERVIEW</p>
-            <p>I truly enjoyed building this online storefront with my teammate Claire Helland in the Moms Can Code School program
-            (https://www.momscan.co/). This was an interesting assignment that incorporated marketing and design concepts into the
-            development of an MVP for a fictional client.</p>         
+            <br>
+            <p>I truly enjoyed building this online storefront with my teammate <a href="#claire">Claire Helland</a> in the Moms Can Code School
+              program (https://www.momscan.co/). This was an interesting assignment that incorporated marketing and design concepts
+              into the development of an MVP for a fictional client.</p>
+          </div>
+        </div>
+      </section> <!-- END row -->
+      <!-- PROJECT OVERVIEW cont'd -->
+      <section class="row justify-content-between">
+        <div class="col-lg-12 p-3">
+          <div class="p-3 text-center">
+            <p class="heading text-center">UNDERSTANDING THE BUSINESS</p>
+            <br>
+            <p>We felt it was important to take time to really understand the buyer persona, customer journey and business before
+            designing the site. This helped us keep both customer goals/use and business goals in mind during the planning process
+            so we could deliver a relevant site experience that ultimately translates into sales and ROI for for the client.</p>
           </div>
         </div>
       </section> <!-- END row -->
@@ -102,42 +128,34 @@
             <p class="heading text-center">CLIENT DESCRIPTION AND COMPETITORS</p>
           </div>
         </div>
+        <div class="col-lg-12 p-3">
+          <div class="text-center">
+            <p>In a fictional interview*, our client described the business:</p>
+            <img src="assets/images/auth-grace-prj-images/client-desc.png" alt="Description of the client and business need">
+            
+            <p>* This interview excerpt was provided to us as part of the assignment.</p>
+          </div>
+          
+        </div>
       </section> <!-- END row -->
       <!-- Buyer Persona -->
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-6 p-3">
-          <div class="p-3 text-center">
-            <p class="heading text-center">Buyer Persona</p>
-            <p>The typical customer is described in the buyer persona.</p>
-            <blockquote>Erin, 37, a fit and active woman with two children under the age of 6. She loves to add pieces to her wardrobe that
-            won’t break the bank and are easily washed. She has a classic style and likes to mix in a few trendy pieces. At this
-            time, she is a stay-at-home mom, but she still wants to look stylish and not “get stuck in the mom.” She loves
-            entertainment TV and her favorite blogs to follow are Ivory Lane, 9to5chic and Hello Fashion.</blockquote>
-          </div>
-        </div>
-        <div class="col-lg-6 p-3">
-          <div class="p-3 text-center">
-            <div class="text-center">
-              <!-- Insert screenshots of the project OR a video walkthrough below. -->
-              <img id="" src="placeholder.com/500x500" alt="Lorem ipsum" />
-            </div>
-          </div>
+      <section id="persona" class="row justify-content-between align-items-center">
+        <div class="p-3 text-center">
+          <p class="heading">Buyer Persona</p>
+          <p>The typical customer is described in the buyer persona.</p>
+          <img src="assets/images/auth-grace-prj-images/auth-grace-buyer-persona.png" alt="buyer persona">
         </div>
       </section> <!-- END row -->
       <!-- Competitors -->
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-6 p-3">
-          <div class="p-3 text-center">
-            <div class="text-center">
-              <!-- Insert screenshots of the project OR a video walkthrough below. -->
-              <img id="" src="placeholder.com/500x500" alt="Lorem ipsum" />
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 p-3">
-          <div class="p-3 text-center">
-            <p class="heading text-center">Competitors</p>
-            </div>
+      <section id="competitors" class="row justify-content-between align-items-center">
+        <div class="col-lg-12 text-center">
+          <p class="heading">Competitors</p>
+          <br>
+          <p>Competitors include <a href="https://www.vicicollection.com/">Vici Collection</a>,
+            <a href="https://roolee.com/"> Roolee</a>, <a href="https://www.shopstevie.com/"> Shop Stevie</a>,
+            <a href="https://www.ascotandhart.com/"> Ascot and Hart</a>, and
+            <a href="https://www.jeanjail.com.au/"> Jean Jail</a>.
+          </p>
         </div>
       </section> <!-- END row -->
 
@@ -145,115 +163,153 @@
       <section class="row justify-content-between">
         <div class="col-lg-12 p-3">
           <div class="text-center">
-            <p class="heading text-center">DESIGN TO DELIGHT</p>
+            <p class="heading text-center pt-3">DESIGN TO DELIGHT</p>
           </div>
         </div>
       </section> <!-- END row -->
       <section class="row justify-content-between align-items-center">
         <div class="col-lg-12 p-3">
           <div class="p-3 text-center">
-            <p class="heading text-center">Business Model Canvas</p>
-            <p class="text-left"></p>
+            <p class="heading">Business Model Canvas</p>
+            <br>
+            <p>With our client’s need and the buyer persona in mind, we aimed to come up with a page design that would delight the
+            user. To inform this design, we created a business model canvas.</p>
+            <br>
+            <a href="https://drive.google.com/file/d/1i6NaTdo3Kq0neT6vFkF1ajPV_TMo5sj4/view?usp=sharing" target="_blank">
+              <img src="assets/images/auth-grace-prj-images/auth-grace-business-model-canvas.JPG" alt="clickable business model canvas image">
+            </a>
           </div>
         </div>
       </section>
       <!-- END row -->
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-6 p-3">
-          <div class="p-3 text-left">
-          </div>
-        </div>
-        <div class="col-lg-6 p-3">
-          <div class="text-center">
-            <!-- Insert screenshots of the project OR a video walkthrough below. -->
-            <img id="" src="placeholder.com/500x500" alt="Lorem ipsum" />
-          </div>
-        </div>
-      </section> <!-- END row -->
-
-
       <section class="row justify-content-between align-items-center">
         <div class="col-lg-12 p-3">
           <div class="p-3 text-center">
-            <p class="heading text-center">Customer Journey</p>
+            <p class="heading">Customer Journey</p>
+            <p>In addition, we documented the customer journey, which informed our design choices.</p>
+            <a href="https://www.lucidchart.com/documents/edit/439c5d2c-a2f2-4bc3-99df-cadcb8321179/0_0">
+              <img src="assets/images/auth-grace-prj-images/auth-grace-customer-journey.JPG"
+                alt="clickable customer journey image">
+            </a>
           </div>
         </div>
       </section>
       <!-- END row -->
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-6 p-3">
-          <div class="text-center">
-            <img id="" src="placeholder.com/500x500" alt="Lorem ipsum" />
-          </div>
-        </div>
-        <div class="col-lg-6 p-3">
-          <div class="p-3 text-left">
-          </div>
-        </div>
-      </section> <!-- END row -->
-
       <section class="row justify-content-between align-items-center">
         <div class="col-lg-12 p-3">
-          <div class="text-center">
-            <p class="heading text-center">DESIGNING THE NEWSLETTER</p>
-            <p class="text-center">Next came designing the look and feel of the newsletter.</p>
-          </div>
-        </div>
-      </section>
-      <!-- END row -->
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-12">
-          <div class="text-left">
+          <div class="p-3 text-center">
             <p class="heading text-center">Site Mockup</p>
-          </div>
-        </div>
-      </section>
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-6">
-          <div class="p-3 text-left">
+            <img src="assets/images/auth-grace-prj-images/auth-grace-mockup.png"
+               alt="clickable customer journey image">
+            <p class="text-center">At this point, it was time to build the webpage.  Claire and I did a lot of pair programming (and Googling!), and
+              we learned so much!  We were so pleased with the results, but we had not yet learned about making websites accessible.
+            </p>
           </div>
         </div>
       </section>
       <!-- END row -->
-      <section class="row justify-content-between align-items-center">
-        <div class="col-lg-6">
-          <div class="p-3 text-left">
-          </div>
-        </div>
-        <div class="col-lg-6 p-0">
-          
-        </div>
-
-        
-        <div class="col-lg-6 p-3">
+      <section class="row justify-content-between">
+        <div class="col-lg-12 p-3">
           <div class="text-center">
-            <div class="row justify-content-between align-items-center">
-              
-            </div>
-            <div class="row justify-content-between align-items-center">
-              <div class="col-lg-12">
-                <!-- Insert screenshots of the project OR a video walkthrough below. -->
-                
-              </div>          
-            </div>
+            <p class="heading text-center">ACCESSIBILITY</p>
+          </div>
+        </div>
+      </section> <!-- END row -->
+      <section class="row justify-content-between align-items-center">
+        <div class="col-lg-12 p-3 text-center">
+            <p>After building the landing page for the online store, we ran a free, automated accessibility test through the
+              <a href="https://www.boia.org/" target="_blank">Bureau of Internet Accessibility</a>.  Below are some graphics from the 
+                test results that summarize how our site fared.</p>
+        </div>
+      </section>
+      <!-- END row -->
+      <section class="row justify-content-between align-items-center">
+        <div class="col-sm-6 col-md-3 col-lg-3 p-3">
+          <div class="text-center">
+            <img class="boia-graphic" src="assets/images/auth-grace-prj-images/BOIA-perceivable2.JPG" alt="image showing 5 of 13 failed (Perceivable Guideline)">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 p-3">
+          <div class="text-center">
+            <img class="boia-graphic" src="assets/images/auth-grace-prj-images/BOIA-operable2.JPG"
+              alt="image showing 1 of 9 failed (Operable Guideline)">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 p-3">
+          <div class="text-center">
+            <img class="boia-graphic" src="assets/images/auth-grace-prj-images/BOIA-understandable2.JPG"
+              alt="image showing 2 of 4 failed (Understandable Guideline)">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 p-3">
+          <div class="text-center">
+            <img class="boia-graphic" src="assets/images/auth-grace-prj-images/BOIA-robust2.JPG"
+              alt="image showing 1 of 2 failed (Robust Guideline)">
+          </div>
+        </div>
+        <div class="col-lg-12 p-3">
+          <div class="text-center">
+            <p>The automated report also showed which WCAG 2.1 A/AA guidelines may have been violated, but 
+              it did not provide any more specific guidance on what aspect of the guideline was violated or how
+              to fix the issues.  Therefore, I researched each potentially violated guideline to determine 
+              what issues existed and wrote a <a href="https://drive.google.com/file/d/1gDeccwOP7ZGfQWHb8W5d5fyPYec1d3Q9/view?usp=sharing">report</a>
+              about my findings.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- END row -->
+      <!-- WHAT I LEARNED -->
+      <section class="row justify-content-between">
+        <div class="col-lg-12 p-3">
+          <div class="text-center">
+            <p class="heading text-center">REFLECTIONS</p>
+          </div>
+        </div>
+      </section> <!-- END row -->
+      <section class="row justify-content-between align-items-center">
+        <div class="col-lg-12 p-3">
+          <div class="p-3 text-center">
+            <p class="heading p-3">What I Learned</p>
+            <ul class="p-3">
+              <li class="reflections text-left">The importance and usefulness of customer and competitor research to the design process was new to me.</li>
+              <br>
+              <li class="reflections text-left">I saw how graphic organizers for a buyer persona, business model canvas and customer journey are 
+                can assist in structuring and making sense of information learned about the client and the client's customers.</li>
+              <br>
+              <li class="reflections text-left">Creating a mood board showing images, colors, typography, and other features to include before 
+                the design process starts makes the rest of the design process go faster.</li>
+              <br>
+              <li class="reflections text-left">Coding is easier when the design is fully fleshed out in design software first.</li>
+              <br>
+              <li class="reflections text-left">Pair programming is a great way to see how someone else approaches a problem.</li>
+              <br>
+              <li class="reflections text-left">When two or more people collaborate on coding, they often bring different skill sets and coding styles from each other. 
+                The next time I collaborate with someone, I'd like us to first establish a coding style guide to try to keep the code looking 
+                more consistent throughout.</li>
+              <br>
+              <li class="reflections text-left">I knew more CSS than I thought I did!</li>
+            </ul>         
+          </div>
+        </div>
+        <div class="col-lg-12 p-3">
+          <div class="p-3 text-center">
+            <p class="heading p-3">Future Improvements</p>
+            <br>
+            <p>Since building this project, I have continued to expand my skills.  With my current knowledge, I would like to improve this project in the following ways:</p>
+            <br>
+            <ul class="p-3">
+              <li class="reflections text-left">Incorporate CSS variables.</li>
+              <br>
+              <li class="reflections text-left">Clean up the CSS code to be more DRY and make the approach more consistent (as if there had been a style guide in use).</li>
+              <br>
+              <li class="reflections text-left">Add a second page - a product page - to the site.</li>
+            </ul>
           </div>
         </div>
       </section>
       <!-- END row -->
 
-
-
-      <!-- STAKEHOLDER MAP -->
-      <!-- EMPATHY MAP -->
-      <!-- CUSTOMER/BUYER PERSONA -->
-      <!-- CUSTOMER JOURNEY -->
-      <!-- COMPETITOR ANALYSIS -->
-      <!-- RESEARCH/SURVEY/INTERVIEWS -->
-      <!-- RESEARCH RESULTS -->
-      <!-- WIREFRAMES/PROTOTYPES -->
-      <!-- ACCESSIBILITY AUDIT REPORT(S) OR USER TEST ANALYSES -->
-      <!-- SITE MAP, IF ANY -->
-      <!-- TEAM MEMBER NAME(S) and ROLES -->
       <section class="row justify-content-between">
         <div class="col-lg-12">
           <div class="text-center">
@@ -262,35 +318,21 @@
               <div class="col-lg-3">
                 <img class="team-image" src="assets/images/Andrea-prof-2019.JPG" alt="photo of Andrea Martz">
               </div>
-              <div class="col-lg-9 my-auto">
-                <ul class="text-left">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
+              <div class="col-lg-9 my-auto text-left">
+                <p>Andrea Martz, M.A. (andreamartz) is a "jack of many trades" in the field of professional certification testing.
+                Recently, she fell in love with coding, and she is currently building her full-stack web development skills. She is
+                passionate about education for all people and service to marginalized and underrepresented communities.</p>
               </div>
             </div>
             <!-- End row -->
             <div class="row justify-content-between my-5">
-              <div class="col-lg-9 my-auto">
-                <ul class="text-left">
-                  <li></li>
-                  <li></li>
-                </ul>
+              <div class="col-lg-9 my-auto text-left">
+                <p id="claire">Claire Helland (clairehelland) - Claire is a novice coder learning front-end development in the Moms Can & Co Coding
+                program. She hopes to one day work up to being a full-stack developer, and her web design process is informed by a
+                marketing and e-commerce career. Claire hopes to one day use her skills as a force for good in the world.</p>
               </div>
               <div class="col-lg-3">
                 <img class="team-image" src="assets\images\Claire-Helland-profile-photo.jpg" alt="photo of Claire Helland">
-              </div>
-            </div>
-            <!-- End row -->
-            <div class="row justify-content-between my-5">
-              <div class="col-lg-12 my-auto">
-                <!-- Insert screenshots of the project OR a video walkthrough below. -->
-                <p>Together</p>
-                <ul class="text-left">
-                  <li></li>
-                  <li></li>
-                </ul>
               </div>
             </div>
             <!-- End row -->

@@ -16,30 +16,81 @@
     12. Footer
     -------------------------------------------------------------------*/
 
-/* 1. Intro */
-.button {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: var(--bg-color-blue);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(131, 163, 175, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
+/* 0. GENERAL STYLES */
+:root {
+  --rosy-brown: #eec7b5;
+  --dark-rosy-brown: #d6b3a2;
+  --darker-rosy-brown: #be9f90;
 }
 
-.button:hover {
-    background-color: var(--bg-color-blue);
+#navigation {
+  position: fixed;
+  top: 0;
 }
 
-.button:active {
-    box-shadow: inset -2px -2px 3px rgba(131, 163, 175, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+#navigation {
+  background-color: var(--darker-rosy-brown)
+}
+
+#top-section {
+  padding: 5rem 0 0 0;
+}
+
+/* 1. Overview */
+.tilt-left-10 {
+  transform: rotate(-10deg);
+}
+
+.tilt-right-7 {
+  transform: rotate(7deg);
+}
+
+@media (max-width: 991px) {
+  /* #auth-grace-mobile {
+    max-width: 37%;
+  } */
+  /* .boia-graphic {
+    max-width: 50%;
+  } */
+}
+
+@media (max-width: 767px) {
+  /* #auth-grace-mobile {
+    max-width: 37%;
+  } */
+  .boia-graphic {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #auth-grace-mobile {
+    max-width: 37%;
+  }
+  .boia-graphic {
+    max-width: 50%;
+  }
+}
+
+a {
+  color: var(--font-color-dark);
+}
+
+a:hover {
+  font-size: 103%;
+  color: var(--font-color-dark);
+}
+
+/* 3. Buyer Persona */
+#persona {
+  margin-bottom: 0;
+}
+
+#competitors {
+  margin-top: 0;
+}
+
+/* 9. What I Learned */
+.reflections, .teamwork {
+  list-style-type: disc;
 }
