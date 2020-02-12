@@ -24,6 +24,28 @@
 
 body {
   font-family: 'ABeeZee', sans-serif;
+  color: #000;
+}
+
+h1.heading {
+  font-size: 2.25rem;
+}
+
+h2.heading {
+  font-size: 1.875rem;
+}
+
+.button {
+  background-color: var(--dark-green);
+  color: #fff;
+  padding: .5rem 2rem;
+}
+
+.top-margin-2rem {
+  margin-top: 2rem;
+}
+.top-margin-3rem {
+  margin-top: 3rem;
 }
 
 /* 1. Intro */
@@ -72,8 +94,17 @@ body {
     max-height: 300px;
   }
 }
-
+*/
 /* 2. Navigation */
+#navigation {
+  background-color: var(--light-green);
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  font-weight: bold;
+  color: #000;
+}
 
 
 /* 3. Theme, Audience and Purpose */
@@ -87,7 +118,8 @@ body {
 
 .image-credit {
   font-size: .75rem;
-} */
+} 
+*/
 
 /* 4. Selecting the Content */
 /* a:hover {
