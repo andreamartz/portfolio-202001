@@ -3,16 +3,17 @@
  
     0. GENERAL STYLES
     1. Intro
-    2. Overview
-    3. Theme, Audience and Purpose
-    4. Selecting the Content
-    5. Design
+    2. Navigation
+    3. Overview
+    4. Theme, Audience and Purpose
+    5. Selecting the Content
+    6. Design
 
 
     
-    6. Final Thoughts
-    7. Future Desired Improvements
-    8. Footer
+    7. Final Thoughts
+    8. Future Desired Improvements
+    9. Footer
     -------------------------------------------------------------------*/
 /* 0. GENERAL STYLES */
 :root {
@@ -21,8 +22,12 @@
   --greenish-blue: #76dbd1;
 }
 
+body {
+  font-family: 'ABeeZee', sans-serif;
+}
+
 /* 1. Intro */
-.button {
+/* .button {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -68,8 +73,11 @@
   }
 }
 
+/* 2. Navigation */
+
+
 /* 3. Theme, Audience and Purpose */
-#coffee-cup, #community-garden, #volunteer, .blue-water, .green-tree {
+/* #coffee-cup, #community-garden, #volunteer, .blue-water, .green-tree {
   max-width: 100%;
 }
 
@@ -79,10 +87,10 @@
 
 .image-credit {
   font-size: .75rem;
-}
+} */
 
 /* 4. Selecting the Content */
-a:hover {
+/* a:hover {
   font-size: 107%
 }
 
@@ -105,10 +113,10 @@ section.roles {
 .resource-link {
   color: var(--font-color-dark);
 }
-
+*/
 /* 5. Design */
 
-.container-green {
+/* .container-green {
   background-color: darkgreen;
 }
 
@@ -122,4 +130,4 @@ section.roles {
 
 .blue-water {
   opacity: .7;
-}
+} */
