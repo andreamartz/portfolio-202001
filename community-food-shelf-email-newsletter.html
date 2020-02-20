@@ -287,6 +287,40 @@
       <!-- END Putting it Together Section -->
       <section>
             <h2>Building the Newsletter</h2>
+            <p>Amy and I mostly did pair programming to build the newsletter. This was the first project either of us had built
+              independently, so we had a lot of Googling to do.</p>
+            <p>I came to appreciate that there are many differences between HTML/CSS for email vs. for web development. Because email
+            clients all display email in different ways, email developers often find themselves using HTML and CSS elements and
+            practices not seen in web development since the late 1990s.</p>
+            <p>Among the biggest differences are these:</p>
+            <ul>
+              <li>
+                Email developers must use the otherwise antiquated HTML table element to structure the layout.
+              </li>
+              <li>
+                Many common email clients do not support embedded video
+              </li>
+              <li>
+                HEX colors must be fully specified; that is the three character shortcut is not supported by all email clients.
+              </li>
+              <li>
+                Many fonts are not supported in email. To be safe, it’s best to use web safe fonts only.
+              </li>
+              <li>
+                Emails must be coded using inline CSS instead of linking a separate file in the head.
+              </li>
+              <li>
+                CSS shorthand should not be used.
+              </li>
+            </ul>
+            <p>Once the page was built, we ran email tests to Yahoo and Gmail addresses using 
+              <a href="https://www.emailonacid.com/email-testing/">Email on Acid</a>.
+            </p>
+            <div>
+              <a href="#navigation">
+                <button class="button" type="button">Back to Top</button>
+              </a>
+            </div>
       </section>
       <!-- END Building Section -->
       <section>
