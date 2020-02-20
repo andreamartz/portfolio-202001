@@ -2,18 +2,21 @@
     [Table of contents]
  
     0. GENERAL STYLES
-    1. Intro
-    2. Navigation
+    1. Navigation
+    2. Intro
     3. Overview
-    4. Theme, Audience and Purpose
-    5. Selecting the Content
-    6. Design
+    4. Team
+    5. Theme, Audience and Purpose
+    6. Content
+    7. Design: Layout
+    8. Design: Style
+    9. Design: Putting it All Together
+    10. Building the Newsletter
+    11. The Final Product
+    12. Technologies and Tools Used
+    13. Things I Learned
+    14. Future Improvements to Make
 
-
-    
-    7. Final Thoughts
-    8. Future Desired Improvements
-    9. Footer
     -------------------------------------------------------------------*/
 /* 0. GENERAL STYLES */
 :root {
@@ -148,18 +151,3 @@ section.roles {
 */
 /* 5. Design */
 
-/* .container-green {
-  background-color: darkgreen;
-}
-
-.green-tree {
-  opacity: 0.8;
-}
-
-.container-blue {
-  background-color: #4c8cad;
-}
-
-.blue-water {
-  opacity: .7;
-} */
