@@ -35,7 +35,8 @@ h1.heading {
 }
 
 h2 {
-  margin-top: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
 }
 
 a {
@@ -48,12 +49,18 @@ a {
   padding: .5rem 2rem;
 }
 
-/* .top-margin-4rem {
-  margin-top: 4rem;
-} */
+/* 1. Navigation */
+#navigation {
+  background-color: var(--light-green);
+}
 
+.navbar-brand,
+.navbar-brand:hover {
+  font-weight: bold;
+  color: #000;
+}
 
-/* 1. Intro */
+/* 2. Intro */
 /* .button {
     border: 0;
     line-height: 2.5;
@@ -81,42 +88,28 @@ a {
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 */
-.tablet {
-  max-width: 400px;
-  transform: rotate(10deg);
-}
 
-.mobile {
-  max-width: 300px;
-  transform: rotate(-7deg);
-}
-/*
-@media (max-width: 767px) {
-  .tablet {
-    max-height: 400px;
-  }
-  .mobile {
-    max-height: 300px;
-  }
-}
-*/
-/* 2. Navigation */
-#navigation {
-  background-color: var(--light-green);
-}
-
-.navbar-brand,
-.navbar-brand:hover {
-  font-weight: bold;
-  color: #000;
-}
+/* 3. Overview */
 
 
-/* 3. Theme, Audience and Purpose */
-/* #coffee-cup, #community-garden, #volunteer, .blue-water, .green-tree {
-  max-width: 100%;
-}
+/* 4. Team */
 
+
+
+/* 5. Theme, Audience and Purpose */
+/* 6. Content */
+/* 7. Design: Layout */
+/* 8. Design: Style */
+/* 9. Design: Putting it All Together */
+/* 10. Building the Newsletter */
+/* 11. The Final Product */
+/* 12. Technologies and Tools Used */
+/* 13. Things I Learned */
+/* 14. Future Improvements to Make */
+
+
+
+/* 
 .content-list-item {
   list-style: circle;
 }
@@ -124,7 +117,7 @@ a {
 .image-credit {
   font-size: .75rem;
 } 
-*/
+*/ 
 
 /* 4. Selecting the Content */
 /* a:hover {
@@ -151,5 +144,24 @@ section.roles {
   color: var(--font-color-dark);
 }
 */
-/* 5. Design */
 
+
+/* .tablet {
+  max-width: 400px;
+  transform: rotate(10deg);
+}
+
+.mobile {
+  max-width: 300px;
+  transform: rotate(-7deg);
+} */
+/*
+@media (max-width: 767px) {
+  .tablet {
+    max-height: 400px;
+  }
+  .mobile {
+    max-height: 300px;
+  }
+}
+*/
