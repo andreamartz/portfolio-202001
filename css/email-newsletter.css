@@ -93,9 +93,23 @@ a {
 
 
 /* 4. Team */
+.headshot {
+  max-width: 179px;
+}
 
+@media (max-width: 767px) {
+  .headshot-container {
+    margin-bottom: 1em;
+  }
+}
 
+.list {
+  padding-left: 1em;
+}
 
+li {
+  list-style: inside disc;
+}
 /* 5. Theme, Audience and Purpose */
 /* 6. Content */
 /* 7. Design: Layout */
