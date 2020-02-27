@@ -110,7 +110,22 @@ a {
 li {
   list-style: inside disc;
 }
+
 /* 5. Theme, Audience and Purpose */
+.circle {
+  display: inline-block;
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+.circle-1 {
+  background-color: var(--greenish-blue);
+}
+
+.circle-2 {
+  background-color: var(--light-green);
+}
+
 /* 6. Content */
 /* 7. Design: Layout */
 /* 8. Design: Style */
